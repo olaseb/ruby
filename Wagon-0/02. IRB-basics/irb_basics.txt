@@ -1,1 +1,11 @@
 // Copy your irb shell history below !
+
+1.9.3p392 :028 > name = "Seb et Blandine"
+ => "Seb et Blandine" 
+1.9.3p392 :029 > def say_hi_to(name)
+1.9.3p392 :030?>   puts "Hello #{name} ! welcome to the ouagon."
+1.9.3p392 :031?>   end
+ => nil 
+1.9.3p392 :032 > say_hi_to(name)
+Hello Seb et Blandine ! welcome to the ouagon.
+ => nil
