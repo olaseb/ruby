@@ -1,5 +1,13 @@
 def age_in_days(day, month, year)
-  # your code goes here !
+  a = Time.new(1985,11,6)
+  
+  n = Time.now
+  
+  n - a
+  
+  r = n - a
+  
+  r / 86400
 end
 
 
