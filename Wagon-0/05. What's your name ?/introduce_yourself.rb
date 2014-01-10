@@ -11,7 +11,6 @@
 ############ ############ ############
 
 
-
 ################# Methode 2 ################# 
 
 # puts "What's your first name?"
@@ -59,7 +58,6 @@
 #   array << second_name
 #   
 #   array
-# 
 # end
 # 
 # array = welcome
