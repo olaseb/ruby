@@ -17,7 +17,7 @@
 # first_name = gets.chomp
 # puts "What's second name?"
 # second_name = gets.chomp
-# puts "Welcome #{first_name} " + second_name
+# puts "Welcome " + first_name + " " + second_name
 
 ################# ################# ################# 
 
