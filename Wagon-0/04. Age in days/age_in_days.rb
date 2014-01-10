@@ -12,4 +12,4 @@ end
 
 
 # Testing your code
-puts age_in_days(6, 11, 1985)
+puts "Dude, you are #{age_in_days(6, 11, 1985)} days old"
