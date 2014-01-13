@@ -1,44 +1,43 @@
-def coach_response_work(answer)
-    if answer.end_with?("?")
-      puts "Silly question"   
-    else
-      puts "I don't care"
-    end
-end
 
-def coach_response_subway(answer)
-      if answer.end_with?("?")
-        puts "Silly question, take the subway"
-      else
-        puts "I don't care, take the subway"
-      end
-end
-
-def stupid_coaching
-  puts "Talk with your coach"
-  has_been_to_work = false
+################ Méthode 1 ################  
   
-  while true
-        answer = gets.chomp
-        break if answer == "leave me alone"
-        
-        has_been_to_work = true if answer.inculde?("subway")
-        
-        if has_been_to_work
-          coach_response_subway(answer)
-        elsif answer == answer.upcase
-          puts "I can fell your motivation"
-        else
-          coach_response_work(answer)    
-        end
+answer = gets.chomp
+until answer == 'I am going to work right now SIR !'
+  if answer.include? ('?')
+    puts "Silly question, get dressed and go to work !"
+  else
+    puts "I don't care son, get dressed and go to work !"
   end
-          
+    answer = gets.chomp
 end
 
+################ ################ ################
+
+######################## Méthode 1 ########################  
+  
+# def stupid_coaching()
+#   array = []
+#   answer = gets.chomp
+#   array << answer
+#   if answer.include? ('?')
+#     puts "Silly question, get dressed and go to work !"
+#   else
+#     puts "I don't care son, get dressed and go to work !"
+#   end
+# end
+# 
+# stupid_coaching()
+
+######################## ######################## ########################
 
 
-   
+
+
 
 
 # Calling the method
-stupid_coaching
+
+  
+  # si je ne pose pas de question le prof me repond puts "I don't care son, get dressed and go to work !"
+  #   si je lui pose une question le prof repond puts "Silly question, get dressed and go to work !"
+  # La seule façon de se débarrasser de lui est de lui dire ce qu'il attend, "I am going to work right now SIR !"
